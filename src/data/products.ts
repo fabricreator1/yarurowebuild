@@ -7,7 +7,8 @@ import paintImage from '@/assets/paint.jpg';
 import electricalImage from '@/assets/electrical.jpg';
 import plumbingImage from '@/assets/plumbing.jpg';
 import screwdriversImage from '@/assets/screwdrivers.jpg';
-
+import lamp from '@/assets/lamp.jpg';
+import lamp from '@/assets/lamp2.jpg';
 export const products: Product[] = [
   // Herramientas
   {
@@ -120,6 +121,14 @@ export const products: Product[] = [
     name: 'Lámpara led incrustar 18w ',
     price: 16000,
     image: lamp,
+    category: 'iluminacion',
+    description: 'Caja de 100 tornillos galvanizados de diferentes medidas.'
+  },
+  {
+    id: '14',
+    name: 'Lámpara led incrustar tipo pastel 18w',
+    price: 13000,
+    image: lamp2,
     category: 'iluminacion',
     description: 'Caja de 100 tornillos galvanizados de diferentes medidas.'
   },
