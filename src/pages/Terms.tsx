@@ -139,7 +139,7 @@ export const Terms = () => {
                 Para cualquier consulta sobre estos términos y condiciones, puedes contactarnos en:
               </p>
               <div className="space-y-2 text-muted-foreground">
-                <p>Dirección: Av. Principal Centro, San Fernando, Apure 7001</p>
+                <p>Dirección: Av.  Centro, San Fernando, Apure 7001</p>
                 <p>Teléfono: +58 424-123-4567</p>
                 <p>Email: info@ferreteriaruro.com</p>
               </div>

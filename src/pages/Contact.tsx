@@ -195,7 +195,7 @@ export const Contact = () => {
                   <MapPin className="h-12 w-12 text-muted-foreground mx-auto mb-2" />
                   <p className="text-muted-foreground">Mapa de Google Maps</p>
                   <p className="text-sm text-muted-foreground">
-                    Av. Principal Centro, San Fernando, Apure
+                    Calle 79C #112b-07 barrio Villas granada
                   </p>
                 </div>
               </div>

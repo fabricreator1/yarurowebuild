@@ -71,15 +71,15 @@ export const Footer = () => {
                 <MapPin className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-sm text-muted-foreground">
-                    Av. Principal Centro<br />
-                    San Fernando, Apure 7001<br />
-                    Venezuela
+                    Calle 79C #112b-07<br />
+                    barrio Villas granada<br />
+                    Colombia
                   </p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
-                <p className="text-sm text-muted-foreground">+58 424-123-4567</p>
+                <p className="text-sm text-muted-foreground">+57 300 3962579</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
