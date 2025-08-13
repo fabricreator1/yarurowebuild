@@ -119,6 +119,7 @@ export const products: Product[] = [
 export const categories = [
   { id: 'herramientas', name: 'Herramientas', icon: '🔨' },
   { id: 'electricidad', name: 'Electricidad', icon: '⚡' },
+  { id: 'iluminacion', name: 'Iluminacion', icon: '💡' },
   { id: 'plomeria', name: 'Plomería', icon: '🔧' },
   { id: 'pinturas', name: 'Pinturas', icon: '🎨' },
   { id: 'ferreteria', name: 'Ferretería General', icon: '⚙️' }

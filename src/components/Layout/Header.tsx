@@ -30,11 +30,11 @@ export const Header = () => {
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-1">
                 <Phone className="h-3 w-3" />
-                <span>+58 424-123-4567</span>
+                <span>+57 300 3962579</span>
               </div>
               <div className="flex items-center gap-1">
                 <Mail className="h-3 w-3" />
-                <span>info@ferreteriaruro.com</span>
+                <span>yaruro1@gmail.com</span>
               </div>
             </div>
             <div className="hidden md:block">

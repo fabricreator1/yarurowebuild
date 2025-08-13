@@ -96,7 +96,7 @@ export const Contact = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">info@ferreteriaruro.com</p>
+                <p className="text-muted-foreground">yaruro1@gmail.com</p>
                 <p className="text-sm text-muted-foreground mt-1">
                   Respuesta en 24 horas
                 </p>
