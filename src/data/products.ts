@@ -113,7 +113,16 @@ export const products: Product[] = [
     image: hammerImage,
     category: 'herramientas',
     description: 'Cinta métrica profesional con freno automático.'
-  }
+  },
+  // iluminacion
+  {
+    id: '13',
+    name: 'Lámpara led incrustar 18w ',
+    price: 16000,
+    image: lamp,
+    category: 'iluminacion',
+    description: 'Caja de 100 tornillos galvanizados de diferentes medidas.'
+  },
 ];
 
 export const categories = [

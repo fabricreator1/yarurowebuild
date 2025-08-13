@@ -162,8 +162,8 @@ export const Privacy = () => {
               </p>
               <div className="space-y-2 text-muted-foreground">
                 <p>Dirección: Av. Principal Centro, San Fernando, Apure 7001</p>
-                <p>Teléfono: +58 424-123-4567</p>
-                <p>Email: info@ferreteriaruro.com</p>
+                <p>Teléfono: +57 300 3962579</p>
+                <p>Email: yaruro1@gmail.com</p>
               </div>
             </CardContent>
           </Card>

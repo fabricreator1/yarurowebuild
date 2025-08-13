@@ -25,7 +25,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat('es-VE', {
       style: 'currency',
-      currency: 'USD',
+      currency: 'COP',
     }).format(price);
   };
 

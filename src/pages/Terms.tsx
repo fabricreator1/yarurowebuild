@@ -34,7 +34,7 @@ export const Terms = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-muted-foreground">
-                Todos los precios están expresados en dólares estadounidenses (USD) e incluyen 
+                Todos los precios están expresados en pesos colombianos (COP) e incluyen 
                 los impuestos aplicables. Los precios pueden variar sin previo aviso. 
                 Nos reservamos el derecho de modificar los precios en cualquier momento.
               </p>
@@ -83,7 +83,7 @@ export const Terms = () => {
             <CardContent className="space-y-4">
               <p className="text-muted-foreground">
                 Ofrecemos servicio de entrega en el área metropolitana de San Fernando de Apure. 
-                Los envíos son gratuitos para compras superiores a $50 USD.
+                Los envíos son gratuitos para compras superiores a $50000 COP.
               </p>
               <p className="text-muted-foreground">
                 Los tiempos de entrega son de 24 a 48 horas hábiles. Para productos especiales 
@@ -139,9 +139,9 @@ export const Terms = () => {
                 Para cualquier consulta sobre estos términos y condiciones, puedes contactarnos en:
               </p>
               <div className="space-y-2 text-muted-foreground">
-                <p>Dirección: Av.  Centro, San Fernando, Apure 7001</p>
+                <p>Dirección: Calle 79C #112b-07 barrio Villas granada</p>
                 <p>Teléfono: +57 300 3962579</p>
-                <p>Email: info@ferreteriaruro.com</p>
+                <p>Email: yaruro1@gmail.com</p>
               </div>
             </CardContent>
           </Card>
