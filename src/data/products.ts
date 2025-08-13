@@ -8,7 +8,17 @@ import electricalImage from '@/assets/electrical.jpg';
 import plumbingImage from '@/assets/plumbing.jpg';
 import screwdriversImage from '@/assets/screwdrivers.jpg';
 import lamp from '@/assets/lamp.jpg';
-import lamp from '@/assets/lamp2.jpg';
+import lamp2 from '@/assets/lamp2.jpg';
+import lamp3 from '@/assets/lamp3.jpg';
+import lamp4 from '@/assets/lamp4.jpg';
+import reflect from '@/assets/reflect.jpg';
+import reflect2 from '@/assets/reflect2.jpg';
+import pint from '@/assets/pint.jpg';
+import pint2 from '@/assets/pint2.jpg';
+import pint3 from '@/assets/pint3.jpg';
+import pint4 from '@/assets/pint4.jpg';
+import pint5 from '@/assets/pint5.jpg';
+import pint6 from '@/assets/pint6.jpg';
 export const products: Product[] = [
   // Herramientas
   {
@@ -53,6 +63,55 @@ export const products: Product[] = [
     category: 'pinturas',
     description: 'Pintura especial para exteriores con protección antioxidante.'
   },
+  {
+    id: '5',
+    name: 'Pintura Exterior Antioxidante',
+    price: 52.99,
+    image: paintImage,
+    category: 'pinturas',
+    description: 'Pintura especial para exteriores con protección antioxidante.'
+  },
+  {
+    id: '5',
+    name: 'Pintura Exterior Antioxidante',
+    price: 52.99,
+    image: paintImage,
+    category: 'pinturas',
+    description: 'Pintura especial para exteriores con protección antioxidante.'
+  },
+  {
+    id: '5',
+    name: 'Pintura Exterior Antioxidante',
+    price: 52.99,
+    image: paintImage,
+    category: 'pinturas',
+    description: 'Pintura especial para exteriores con protección antioxidante.'
+  },
+  {
+    id: '5',
+    name: 'Pintura Exterior Antioxidante',
+    price: 52.99,
+    image: paintImage,
+    category: 'pinturas',
+    description: 'Pintura especial para exteriores con protección antioxidante.'
+  },
+  {
+    id: '5',
+    name: 'Pintura Exterior Antioxidante',
+    price: 52.99,
+    image: paintImage,
+    category: 'pinturas',
+    description: 'Pintura especial para exteriores con protección antioxidante.'
+  },
+  {
+    id: '5',
+    name: 'Pintura Exterior Antioxidante',
+    price: 52.99,
+    image: paintImage,
+    category: 'pinturas',
+    description: 'Pintura especial para exteriores con protección antioxidante.'
+  },
+  
 
   // Electricidad
   {
@@ -129,6 +188,38 @@ export const products: Product[] = [
     name: 'Lámpara led incrustar tipo pastel 18w',
     price: 13000,
     image: lamp2,
+    category: 'iluminacion',
+    description: 'Caja de 100 tornillos galvanizados de diferentes medidas.'
+  },
+  {
+    id: '15',
+    name: 'Lámpara led sobreponer 18w',
+    price: 16000,
+    image: lamp3,
+    category: 'iluminacion',
+    description: 'Caja de 100 tornillos galvanizados de diferentes medidas.'
+  },
+  {
+    id: '16',
+    name: 'Lámpara led tipo pastel 18w',
+    price: 13000,
+    image: lamp4,
+    category: 'iluminacion',
+    description: 'Caja de 100 tornillos galvanizados de diferentes medidas.'
+  },
+  {
+    id: '17',
+    name: 'Reflector 50w ',
+    price: 35000,
+    image: reflect,
+    category: 'iluminacion',
+    description: 'Caja de 100 tornillos galvanizados de diferentes medidas.'
+  },
+  {
+    id: '18',
+    name: 'Reflector 100w',
+    price: 60000,
+    image: reflect2,
     category: 'iluminacion',
     description: 'Caja de 100 tornillos galvanizados de diferentes medidas.'
   },
