@@ -47,7 +47,9 @@ export const Home = () => {
                 size="lg"
                 className="border-white text-white hover:bg-white/10 backdrop-blur-sm"
               >
-                <Link to="/contacto">Contactar</Link>
+                <Link to="/contacto">Contactar
+                <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
               </Button>
             </div>
           </div>
@@ -73,7 +75,7 @@ export const Home = () => {
                 <Truck className="h-12 w-12 text-secondary mx-auto mb-4" />
                 <h3 className="font-semibold text-foreground mb-2">Envío Gratis</h3>
                 <p className="text-sm text-muted-foreground">
-                  Envío gratuito en compras superiores a $50
+                  Envío gratuito en compras superiores a $50000COP
                 </p>
               </CardContent>
             </Card>
