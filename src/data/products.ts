@@ -7,12 +7,14 @@ import paintImage from '@/assets/paint.jpg';
 import electricalImage from '@/assets/electrical.jpg';
 import plumbingImage from '@/assets/plumbing.jpg';
 import screwdriversImage from '@/assets/screwdrivers.jpg';
+//iluminacion
 import lamp from '@/assets/lamp.jpg';
 import lamp2 from '@/assets/lamp2.jpg';
 import lamp3 from '@/assets/lamp3.jpg';
 import lamp4 from '@/assets/lamp4.jpg';
 import reflect from '@/assets/reflect.jpg';
 import reflect2 from '@/assets/reflect2.jpg';
+//pintura
 import pint from '@/assets/pint.jpg';
 import pint2 from '@/assets/pint2.jpg';
 import pint3 from '@/assets/pint3.jpg';
@@ -49,70 +51,52 @@ export const products: Product[] = [
   // Pinturas
   {
     id: '4',
-    name: 'Pintura Látex Interior 4L',
-    price: 45.99,
-    image: paintImage,
+    name: 'Vinílico ICO galón tipo 1',
+    price: 65000,
+    image: pint,
     category: 'pinturas',
     description: 'Pintura látex lavable para interiores, alta cobertura.'
   },
   {
     id: '5',
-    name: 'Pintura Exterior Antioxidante',
-    price: 52.99,
-    image: paintImage,
+    name: 'Vinilo ICO caneca',
+    price: 260000,
+    image: pint2,
     category: 'pinturas',
     description: 'Pintura especial para exteriores con protección antioxidante.'
   },
   {
-    id: '5',
-    name: 'Pintura Exterior Antioxidante',
-    price: 52.99,
-    image: paintImage,
+    id: '6',
+    name: 'Vinilo ICO caneca tipo 2',
+    price: 210000,
+    image: pint3,
     category: 'pinturas',
     description: 'Pintura especial para exteriores con protección antioxidante.'
   },
   {
-    id: '5',
-    name: 'Pintura Exterior Antioxidante',
-    price: 52.99,
-    image: paintImage,
+    id: '7',
+    name: 'Vinilo ICO galón tipo 2',
+    price: 60000,
+    image: pint4,
     category: 'pinturas',
     description: 'Pintura especial para exteriores con protección antioxidante.'
   },
   {
-    id: '5',
-    name: 'Pintura Exterior Antioxidante',
-    price: 52.99,
-    image: paintImage,
+    id: '8',
+    name: 'Esmalte pintuco galón',
+    price: 95000,
+    image: pint5,
     category: 'pinturas',
     description: 'Pintura especial para exteriores con protección antioxidante.'
   },
   {
-    id: '5',
-    name: 'Pintura Exterior Antioxidante',
-    price: 52.99,
-    image: paintImage,
+    id: '9',
+    name: 'Pintuco viniltex baños y cocina galón',
+    price: 130000,
+    image: pint6,
     category: 'pinturas',
     description: 'Pintura especial para exteriores con protección antioxidante.'
   },
-  {
-    id: '5',
-    name: 'Pintura Exterior Antioxidante',
-    price: 52.99,
-    image: paintImage,
-    category: 'pinturas',
-    description: 'Pintura especial para exteriores con protección antioxidante.'
-  },
-  {
-    id: '5',
-    name: 'Pintura Exterior Antioxidante',
-    price: 52.99,
-    image: paintImage,
-    category: 'pinturas',
-    description: 'Pintura especial para exteriores con protección antioxidante.'
-  },
-  
-
   // Electricidad
   {
     id: '6',
