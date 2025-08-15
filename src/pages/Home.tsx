@@ -75,7 +75,7 @@ export const Home = () => {
                 <Truck className="h-12 w-12 text-secondary mx-auto mb-4" />
                 <h3 className="font-semibold text-foreground mb-2">Envío Gratis</h3>
                 <p className="text-sm text-muted-foreground">
-                  Envío gratuito en compras superiores a $50000COP
+                  Envío gratuito en compras superiores a $800000COP
                 </p>
               </CardContent>
             </Card>
