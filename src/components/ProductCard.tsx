@@ -44,11 +44,15 @@ export const ProductCard = ({ product }: ProductCardProps) => {
     <Card className="group hover-lift transition-smooth gradient-card border-border/50 overflow-hidden">
       <CardHeader className="p-0">
         <div className="relative overflow-hidden">
+
+          {/* 🔹 CAMBIO REALIZADO AQUÍ */}
           <img
             src={product.image}
             alt={product.name}
-            className="w-full h-48 object-cover transition-smooth group-hover:scale-105"
+            className="w-full h-48 object-contain p-2 bg-white transition-smooth group-hover:scale-105"
           />
+          {/* 🔹 FIN DEL CAMBIO */}
+
           <Badge 
             variant="secondary" 
             className="absolute top-2 left-2 bg-secondary/90 backdrop-blur-sm"

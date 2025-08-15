@@ -241,3 +241,18 @@ Colores principales: Naranja ferretería y Azul industrial
     box-shadow: var(--shadow-glow);
   }
 }
+
+/* prueba */
+
+@layer components {
+  .product-image {
+    @apply w-full bg-white p-3; /* ancho completo, fondo blanco, padding interno */
+    height: 230px;              /* altura uniforme para todas */
+    object-fit: contain;        /* muestra el producto completo */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* fin de prueba */
