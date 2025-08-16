@@ -29,6 +29,22 @@ import plo4 from '@/assets/plomeria/plo4.jpg';
 import plo5 from '@/assets/plomeria/plo5.jpg';
 import plo6 from '@/assets/plomeria/plo6.jpg';
 import plo7 from '@/assets/plomeria/plo7.jpg';
+// abrasivos y corte
+import cort from '@/assets/abrasivos y corte/cort.jpg';
+import cort2 from '@/assets/abrasivos y corte/cort1.jpg';
+import cort3 from '@/assets/abrasivos y corte/cort2.jpg';
+import cort4 from '@/assets/abrasivos y corte/cort3.jpg';
+import cort5 from '@/assets/abrasivos y corte/cort4.jpg';
+// construccion
+import co from '@/assets/construccion/co.jpg';
+import co1 from '@/assets/construccion/co1.jpg';
+import co2 from '@/assets/construccion/co2.jpg';
+import co3 from '@/assets/construccion/co3.jpg';
+import co4 from '@/assets/construccion/co4.jpg';
+import co5 from '@/assets/construccion/co5.jpg';
+import co6 from '@/assets/construccion/co6.jpg';
+import co7 from '@/assets/construccion/co7.jpg';
+
 
 export const products: Product[] = [
   // Herramientas
@@ -69,6 +85,24 @@ export const products: Product[] = [
   { id: '25', name: 'Lámpara led tipo pastel 18w', price: 13000, image: lamp4, category: 'iluminacion', description: 'Lámpara LED tipo pastel para montaje superficial, bajo consumo.' },
   { id: '26', name: 'Reflector 50w', price: 35000, image: reflect, category: 'iluminacion', description: 'Reflector LED de 50W, ideal para iluminar espacios exteriores.' },
   { id: '27', name: 'Reflector 100w', price: 60000, image: reflect2, category: 'iluminacion', description: 'Reflector LED de 100W, alto rendimiento y resistencia al agua.' },
+  // Abrasivos y cortes 
+  { id: '28', name: 'Disco corte metal Dewalt', price: 8000, image: cort, category: 'abrasivos y cortes', description: 'Disco de corte de 4.5 pulgadas para esmeril angular, ideal para acero y metales.' },
+  { id: '29', name: 'Disco diamantado 4 1/2 continuo corneta', price: 13000, image: cort2, category: 'abrasivos y cortes', description: 'Disco flap de 4.5 pulgadas, perfecto para desbaste y terminaciones.' },
+  { id: '30', name: 'Disco diamantado 4 1/2 segmento corneta', price: 13000, image: cort3, category: 'abrasivos y cortes', description: 'Disco diamantado de 7 pulgadas para corte en cerámica, porcelanato y concreto.' },
+  { id: '31', name: 'Disco diamantado 4 1/2 segmento ', price: 20000, image: cort4, category: 'abrasivos y cortes', description: 'Lija de banda grano 80, ideal para madera y metal.' },
+  { id: '32', name: 'Disco flap ', price: 6500, image: cort5, category: 'abrasivos y cortes', description: 'Cepillo circular de alambre para limpieza de óxido y pintura en metales.' },
+
+  // Construcción 
+  { id: '33', name: 'Lámina de drywall 1.20x2.40m', price: 12000, image: drywall, category: 'construccion', description: 'Panel de yeso estándar 1.20x2.40m, ideal para tabiques y cielos.' },
+  { id: '34', name: 'Perfil metálico canal drywall', price: 4500, image: perfilCanal, category: 'construccion', description: 'Perfil canal metálico galvanizado para estructura de tabiques de drywall.' },
+  { id: '35', name: 'Saco de cemento 25kg', price: 7000, image: cemento25, category: 'construccion', description: 'Cemento gris de 25kg, de alta resistencia para obras de construcción.' },
+  { id: '36', name: 'Bolsa de yeso 25kg', price: 6500, image: yeso25, category: 'construccion', description: 'Yeso de construcción para revestimientos y acabados interiores.' },
+  { id: '37', name: 'Bloque de hormigón 15x20x40', price: 1200, image: bloqueHormigon, category: 'construccion', description: 'Bloque de hormigón macizo, ideal para muros estructurales y divisiones.' },
+  { id: '38', name: 'Plancha OSB 1.22x2.44m', price: 18000, image: planchaOSB, category: 'construccion', description: 'Plancha OSB estructural 11mm, uso en cubiertas y revestimientos.' },
+  { id: '39', name: 'Fierro corrugado 8mm', price: 3500, image: fierro8mm, category: 'construccion', description: 'Barra de acero corrugado de 8mm para refuerzo estructural en hormigón.' },
+
+
+
 ];
 
 export const categories = [
