@@ -8,19 +8,19 @@ import electricalImage from '@/assets/electrical.jpg';
 import plumbingImage from '@/assets/plumbing.jpg';
 import screwdriversImage from '@/assets/screwdrivers.jpg';
 // Iluminación
-import lamp from '@/assets/lamp.jpg';
-import lamp2 from '@/assets/lamp2.jpg';
-import lamp3 from '@/assets/lamp3.jpg';
-import lamp4 from '@/assets/lamp4.jpg';
-import reflect from '@/assets/reflect.jpg';
-import reflect2 from '@/assets/reflect2.jpg';
+import lamp from '@/assets/iluminacion/lamp.jpg';
+import lamp2 from '@/assets/iluminacion/lamp2.jpg';
+import lamp3 from '@/assets/iluminacion/lamp3.jpg';
+import lamp4 from '@/assets/iluminacion/lamp4.jpg';
+import reflect from '@/assets/iluminacion/reflect.jpg';
+import reflect2 from '@/assets/iluminacion/reflect2.jpg';
 // Pinturas
-import pint from '@/assets/pint.jpg';
-import pint2 from '@/assets/pint2.jpg';
-import pint3 from '@/assets/pint3.jpg';
-import pint4 from '@/assets/pint4.jpg';
-import pint5 from '@/assets/pint5.jpg';
-import pint6 from '@/assets/pint6.jpg';
+import pint from '@/assets/pintura/pint.jpg';
+import pint2 from '@/assets/pintura/pint2.jpg';
+import pint3 from '@/assets/pintura/pint3.jpg';
+import pint4 from '@/assets/pintura/pint4.jpg';
+import pint5 from '@/assets/pintura/pint5.jpg';
+import pint6 from '@/assets/pintura/pint6.jpg';
 // Plomería
 import plo from '@/assets/plomeria/plo.jpg';
 import plo2 from '@/assets/plomeria/plo2.jpg';

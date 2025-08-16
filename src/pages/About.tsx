@@ -13,7 +13,7 @@ export const About = () => {
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Más de 29 años siendo el aliado de confianza para constructores, 
-            profesionales y familias en toda la región de Apure.
+            profesionales y familias en toda la región de Bogota, colombia.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export const About = () => {
               <p>
                 Ferretería Yaruro fue fundada en 1995 por la familia Yaruro con el sueño 
                 de crear una ferretería que combinara calidad, variedad y excelente servicio 
-                al cliente en el corazón de San Fernando de Apure.
+                al cliente en el corazón de Bogota.
               </p>
               <p>
                 Lo que comenzó como un pequeño local familiar se ha convertido en una de 
