@@ -77,7 +77,9 @@ export const categories = [
   { id: 'iluminacion', name: 'Iluminacion', icon: '💡' },
   { id: 'plomeria', name: 'Plomería', icon: '🔧' },
   { id: 'pinturas', name: 'Pinturas', icon: '🎨' },
-  { id: 'ferreteria', name: 'Ferretería General', icon: '⚙️' }
+  { id: 'ferreteria', name: 'Ferretería General', icon: '⚙️' },
+  { id: 'Abrasivos y corte', name: 'Abrasivos y corte', icon: '🟢' },
+  { id: 'Construcción', name: 'Construcción', icon: '🏢' },
 ];
 
 // Nueva versión optimizada
