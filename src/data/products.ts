@@ -1,12 +1,7 @@
 import { Product } from '@/hooks/useCart';
 
 // Importar imágenes generadas
-import drillImage from '@/assets/drill.jpg';
-import hammerImage from '@/assets/hammer.jpg';
-import paintImage from '@/assets/paint.jpg';
-import electricalImage from '@/assets/electrical.jpg';
-import plumbingImage from '@/assets/plumbing.jpg';
-import screwdriversImage from '@/assets/screwdrivers.jpg';
+
 // Iluminación
 import lamp from '@/assets/iluminacion/lamp.jpg';
 import lamp2 from '@/assets/iluminacion/lamp2.jpg';
@@ -56,9 +51,7 @@ import co7 from '@/assets/construccion/co7.jpg';
 
 export const products: Product[] = [
   // Herramientas
-  { id: '1', name: 'Taladro Eléctrico Profesional', price: 89.99, image: drillImage, category: 'herramientas', description: 'Taladro eléctrico de alta potencia con batería recargable y función de percusión.' },
-  { id: '2', name: 'Martillo de Carpintero', price: 24.99, image: hammerImage, category: 'herramientas', description: 'Martillo resistente con cabeza de acero templado y mango ergonómico de madera.' },
-  { id: '3', name: 'Set de Destornilladores', price: 34.99, image: screwdriversImage, category: 'herramientas', description: 'Juego de destornilladores planos y de estrella en varios tamaños.' },
+  
 
   // Pinturas
   { id: '4', name: 'Vinílico ICO galón tipo 1', price: 65000, image: pint, category: 'pinturas', description: 'Pintura vinílica tipo 1 para interiores, lavable y de alta cobertura.' },
@@ -69,8 +62,7 @@ export const products: Product[] = [
   { id: '9', name: 'Pintuco viniltex baños y cocina galón', price: 130000, image: pint6, category: 'pinturas', description: 'Pintura viniltex resistente a la humedad, ideal para baños y cocinas.' },
 
   // Electricidad
-  { id: '10', name: 'Cable Eléctrico 12 AWG', price: 18.99, image: electricalImage, category: 'electricidad', description: 'Cable calibre 12 AWG para instalaciones eléctricas residenciales seguras.' },
-  { id: '11', name: 'Kit de Herramientas Eléctricas', price: 67.99, image: electricalImage, category: 'electricidad', description: 'Kit con herramientas básicas para trabajos eléctricos domésticos.' },
+  
 
   // Plomería
   { id: '12', name: 'Canastilla 4"', price: 14000, image: plo, category: 'plomeria', description: 'Canastilla metálica de 4" para lavaplatos, resistente y duradera.' },
@@ -89,9 +81,7 @@ export const products: Product[] = [
   { id: '25', name: 'Yee lavadora Truper', price: 15000, image: plo14, category: 'plomeria', description: 'Yee marca Truper para conexión de lavadora, calidad garantizada.' },
 
   // Ferretería General
-  { id: '26', name: 'Tornillos Galvanizados (Caja 100)', price: 15.99, image: screwdriversImage, category: 'ferreteria', description: 'Caja con 100 tornillos galvanizados resistentes a la corrosión.' },
-  { id: '27', name: 'Candado de Seguridad', price: 22.99, image: hammerImage, category: 'ferreteria', description: 'Candado de acero endurecido con dos llaves de seguridad.' },
-  { id: '28', name: 'Cinta Métrica 5 metros', price: 16.99, image: hammerImage, category: 'herramientas', description: 'Cinta métrica de 5 metros con freno automático y carcasa resistente.' },
+  
 
   // Iluminación
   { id: '29', name: 'Lámpara led incrustar 18w', price: 16000, image: lamp, category: 'iluminacion', description: 'Lámpara LED de 18W para empotrar, luz blanca y bajo consumo.' },

@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { ProductCard } from '@/components/ProductCard';
 import { getFeaturedProducts, categories } from '@/data/products';
 import { ArrowRight, Shield, Truck, Clock, Star } from 'lucide-react';
-import heroBanner from '@/assets/hero-banner.jpg';
+import heroBanner from '@/assets/hero-banner.png';
 
 export const Home = () => {
   const featuredProducts = getFeaturedProducts();
