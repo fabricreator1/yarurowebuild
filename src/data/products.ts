@@ -29,6 +29,14 @@ import plo4 from '@/assets/plomeria/plo4.jpg';
 import plo5 from '@/assets/plomeria/plo5.jpg';
 import plo6 from '@/assets/plomeria/plo6.jpg';
 import plo7 from '@/assets/plomeria/plo7.jpg';
+import plo8 from '@/assets/plomeria/plo8.jpg';
+import plo9 from '@/assets/plomeria/plo9.jpg';
+import plo10 from '@/assets/plomeria/plo10.jpg';
+import plo11 from '@/assets/plomeria/plo11.jpg';
+import plo12 from '@/assets/plomeria/plo12.jpg';
+import plo13 from '@/assets/plomeria/plo13.jpg';
+import plo14 from '@/assets/plomeria/plo14.jpg';
+
 // abrasivos y corte
 import cort from '@/assets/abrasivos y corte/cort.jpg';
 import cort2 from '@/assets/abrasivos y corte/cort1.jpg';
@@ -72,37 +80,43 @@ export const products: Product[] = [
   { id: '16', name: 'Llave lavamano doble', price: 45000, image: plo5, category: 'plomeria', description: 'Grifería doble para lavamanos, acabado cromado y diseño moderno.' },
   { id: '17', name: 'Llave lavamano sencilla', price: 36000, image: plo6, category: 'plomeria', description: 'Grifería sencilla para lavamanos, fácil instalación y resistente.' },
   { id: '18', name: 'Mezclador lavaplatos', price: 75000, image: plo7, category: 'plomeria', description: 'Mezclador para lavaplatos con dos manijas y acabado cromado.' },
+  { id: '19', name: 'Manguera de lavadora', price: 10000, image: plo8, category: 'plomeria', description: 'Manguera resistente para conexión de lavadora.' },
+  { id: '20', name: 'Manguera desagüe 3 bocas lavadora', price: 18000, image: plo9, category: 'plomeria', description: 'Manguera de desagüe de 3 bocas para lavadora, flexible y duradera.' },
+  { id: '21', name: 'Manguera desagüe lavadora', price: 18000, image: plo10, category: 'plomeria', description: 'Manguera de desagüe para lavadora, resistente y de fácil instalación.' },
+  { id: '22', name: 'Manguera llenado lavadora', price: 18000, image: plo11, category: 'plomeria', description: 'Manguera para llenado de lavadora, conexión estándar y alta resistencia.' },
+  { id: '23', name: 'Manguera llenado lavadora reforzada', price: 25000, image: plo12, category: 'plomeria', description: 'Manguera reforzada para llenado de lavadora, mayor durabilidad y seguridad.' },
+  { id: '24', name: 'Yee lavadora cobre', price: 15000, image: plo13, category: 'plomeria', description: 'Yee de cobre para conexión de lavadora, durable y resistente.' },
+  { id: '25', name: 'Yee lavadora Truper', price: 15000, image: plo14, category: 'plomeria', description: 'Yee marca Truper para conexión de lavadora, calidad garantizada.' },
 
   // Ferretería General
-  { id: '19', name: 'Tornillos Galvanizados (Caja 100)', price: 15.99, image: screwdriversImage, category: 'ferreteria', description: 'Caja con 100 tornillos galvanizados resistentes a la corrosión.' },
-  { id: '20', name: 'Candado de Seguridad', price: 22.99, image: hammerImage, category: 'ferreteria', description: 'Candado de acero endurecido con dos llaves de seguridad.' },
-  { id: '21', name: 'Cinta Métrica 5 metros', price: 16.99, image: hammerImage, category: 'herramientas', description: 'Cinta métrica de 5 metros con freno automático y carcasa resistente.' },
+  { id: '26', name: 'Tornillos Galvanizados (Caja 100)', price: 15.99, image: screwdriversImage, category: 'ferreteria', description: 'Caja con 100 tornillos galvanizados resistentes a la corrosión.' },
+  { id: '27', name: 'Candado de Seguridad', price: 22.99, image: hammerImage, category: 'ferreteria', description: 'Candado de acero endurecido con dos llaves de seguridad.' },
+  { id: '28', name: 'Cinta Métrica 5 metros', price: 16.99, image: hammerImage, category: 'herramientas', description: 'Cinta métrica de 5 metros con freno automático y carcasa resistente.' },
 
   // Iluminación
-  { id: '22', name: 'Lámpara led incrustar 18w', price: 16000, image: lamp, category: 'iluminacion', description: 'Lámpara LED de 18W para empotrar, luz blanca y bajo consumo.' },
-  { id: '23', name: 'Lámpara led incrustar tipo pastel 18w', price: 13000, image: lamp2, category: 'iluminacion', description: 'Lámpara LED tipo pastel para empotrar, diseño moderno y elegante.' },
-  { id: '24', name: 'Lámpara led sobreponer 18w', price: 16000, image: lamp3, category: 'iluminacion', description: 'Lámpara LED de sobreponer con luz uniforme y fácil instalación.' },
-  { id: '25', name: 'Lámpara led tipo pastel 18w', price: 13000, image: lamp4, category: 'iluminacion', description: 'Lámpara LED tipo pastel para montaje superficial, bajo consumo.' },
-  { id: '26', name: 'Reflector 50w', price: 35000, image: reflect, category: 'iluminacion', description: 'Reflector LED de 50W, ideal para iluminar espacios exteriores.' },
-  { id: '27', name: 'Reflector 100w', price: 60000, image: reflect2, category: 'iluminacion', description: 'Reflector LED de 100W, alto rendimiento y resistencia al agua.' },
+  { id: '29', name: 'Lámpara led incrustar 18w', price: 16000, image: lamp, category: 'iluminacion', description: 'Lámpara LED de 18W para empotrar, luz blanca y bajo consumo.' },
+  { id: '30', name: 'Lámpara led incrustar tipo pastel 18w', price: 13000, image: lamp2, category: 'iluminacion', description: 'Lámpara LED tipo pastel para empotrar, diseño moderno y elegante.' },
+  { id: '31', name: 'Lámpara led sobreponer 18w', price: 16000, image: lamp3, category: 'iluminacion', description: 'Lámpara LED de sobreponer con luz uniforme y fácil instalación.' },
+  { id: '32', name: 'Lámpara led tipo pastel 18w', price: 13000, image: lamp4, category: 'iluminacion', description: 'Lámpara LED tipo pastel para montaje superficial, bajo consumo.' },
+  { id: '33', name: 'Reflector 50w', price: 35000, image: reflect, category: 'iluminacion', description: 'Reflector LED de 50W, ideal para iluminar espacios exteriores.' },
+  { id: '34', name: 'Reflector 100w', price: 60000, image: reflect2, category: 'iluminacion', description: 'Reflector LED de 100W, alto rendimiento y resistencia al agua.' },
+
   // Abrasivos y cortes 
-  { id: '28', name: 'Disco corte metal Dewalt', price: 8000, image: cort, category: 'abrasivos y cortes', description: 'Disco de corte de 4.5 pulgadas para esmeril angular, ideal para acero y metales.' },
-  { id: '29', name: 'Disco diamantado 4 1/2 continuo corneta', price: 13000, image: cort2, category: 'abrasivos y cortes', description: 'Disco flap de 4.5 pulgadas, perfecto para desbaste y terminaciones.' },
-  { id: '30', name: 'Disco diamantado 4 1/2 segmento corneta', price: 13000, image: cort3, category: 'abrasivos y cortes', description: 'Disco diamantado de 7 pulgadas para corte en cerámica, porcelanato y concreto.' },
-  { id: '31', name: 'Disco diamantado 4 1/2 segmento ', price: 20000, image: cort4, category: 'abrasivos y cortes', description: 'Lija de banda grano 80, ideal para madera y metal.' },
-  { id: '32', name: 'Disco flap ', price: 6500, image: cort5, category: 'abrasivos y cortes', description: 'Cepillo circular de alambre para limpieza de óxido y pintura en metales.' },
+  { id: '35', name: 'Disco corte metal Dewalt', price: 8000, image: cort, category: 'abrasivos y corte', description: 'Disco de corte de 4.5 pulgadas marca Dewalt, ideal para acero y metales.' },
+  { id: '36', name: 'Disco diamantado 4 1/2 continuo corneta', price: 13000, image: cort2, category: 'abrasivos y corte', description: 'Disco diamantado de 4.5 pulgadas de corte continuo, especial para cerámica y porcelanato.' },
+  { id: '37', name: 'Disco diamantado 4 1/2 segmento corneta', price: 13000, image: cort3, category: 'abrasivos y corte', description: 'Disco diamantado de 4.5 pulgadas segmentado, ideal para cortes en concreto y mampostería.' },
+  { id: '38', name: 'Disco diamantado 4 1/2 segmento', price: 20000, image: cort4, category: 'abrasivos y corte', description: 'Disco diamantado segmentado de alta duración, recomendado para cortes en piedra y cemento.' },
+  { id: '39', name: 'Disco flap', price: 6500, image: cort5, category: 'abrasivos y corte', description: 'Disco flap de 4.5 pulgadas, perfecto para desbaste y acabado en metal y acero inoxidable.' },
 
   // Construcción 
-  { id: '33', name: 'Lámina de drywall 1.20x2.40m', price: 12000, image: drywall, category: 'construccion', description: 'Panel de yeso estándar 1.20x2.40m, ideal para tabiques y cielos.' },
-  { id: '34', name: 'Perfil metálico canal drywall', price: 4500, image: perfilCanal, category: 'construccion', description: 'Perfil canal metálico galvanizado para estructura de tabiques de drywall.' },
-  { id: '35', name: 'Saco de cemento 25kg', price: 7000, image: cemento25, category: 'construccion', description: 'Cemento gris de 25kg, de alta resistencia para obras de construcción.' },
-  { id: '36', name: 'Bolsa de yeso 25kg', price: 6500, image: yeso25, category: 'construccion', description: 'Yeso de construcción para revestimientos y acabados interiores.' },
-  { id: '37', name: 'Bloque de hormigón 15x20x40', price: 1200, image: bloqueHormigon, category: 'construccion', description: 'Bloque de hormigón macizo, ideal para muros estructurales y divisiones.' },
-  { id: '38', name: 'Plancha OSB 1.22x2.44m', price: 18000, image: planchaOSB, category: 'construccion', description: 'Plancha OSB estructural 11mm, uso en cubiertas y revestimientos.' },
-  { id: '39', name: 'Fierro corrugado 8mm', price: 3500, image: fierro8mm, category: 'construccion', description: 'Barra de acero corrugado de 8mm para refuerzo estructural en hormigón.' },
-
-
-
+  { id: '40', name: 'Ángulo metálico', price: 6000, image: co, category: 'construcción', description: 'Ángulo metálico galvanizado para refuerzos estructurales y soportes.' },
+  { id: '41', name: 'Canal base drywall', price: 11000, image: co1, category: 'construcción', description: 'Canal base metálico galvanizado de 3m, usado en estructuras de drywall.' },
+  { id: '42', name: 'Canal base 9 drywall', price: 13000, image: co2, category: 'construcción', description: 'Canal base de 9cm para estructuras metálicas de sistemas drywall.' },
+  { id: '43', name: 'Lámina drywall', price: 48000, image: co3, category: 'construcción', description: 'Lámina de yeso drywall 1.20 x 2.40m, ideal para tabiques y cielorrasos.' },
+  { id: '44', name: 'Omega drywall', price: 7000, image: co4, category: 'construcción', description: 'Perfil Omega galvanizado, utilizado como soporte en estructuras drywall.' },
+  { id: '45', name: 'Paral base 6 drywall', price: 12000, image: co5, category: 'construcción', description: 'Perfil paral de 6cm galvanizado, diseñado para muros livianos en drywall.' },
+  { id: '46', name: 'Paral base 9 drywall', price: 13000, image: co6, category: 'construcción', description: 'Perfil paral de 9cm galvanizado, usado en muros estructurales de drywall.' },
+  { id: '47', name: 'Vigueta metálica', price: 7000, image: co7, category: 'construcción', description: 'Vigueta metálica liviana, ideal para sistemas de entrepiso y cubierta.' },
 ];
 
 export const categories = [
@@ -112,8 +126,8 @@ export const categories = [
   { id: 'plomeria', name: 'Plomería', icon: '🔧' },
   { id: 'pinturas', name: 'Pinturas', icon: '🎨' },
   { id: 'ferreteria', name: 'Ferretería General', icon: '⚙️' },
-  { id: 'Abrasivos y corte', name: 'Abrasivos y corte', icon: '🟢' },
-  { id: 'Construcción', name: 'Construcción', icon: '🏢' },
+  { id: 'abrasivos y corte', name: 'Abrasivos y corte', icon: '🟢' },
+  { id: 'construcción', name: 'Construcción', icon: '🏢' },
 ];
 
 // Nueva versión optimizada
